@@ -1,0 +1,12 @@
+#Author:Pooja Shrivastava
+#date:04th july 2023
+#Description:Testing Swaglab application
+
+Feature:feature to test login functionality with valid credential
+
+
+Scenario: Testing Login Functionality
+Given User is on login page
+When users enters username and password
+And click on logic button
+Then user is navigating to home page
